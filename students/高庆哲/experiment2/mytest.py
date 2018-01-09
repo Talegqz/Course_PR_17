@@ -88,7 +88,7 @@ pred = np.array([[[31, 23,  4, 24, 27, 34],
                 [17, 12,  5, 11, 10, 15]]])
 sess = tf.InteractiveSession()
 
-print(tf.argmax(pred,axis = 2).eval(session=sess))
+print(tf.argmax(pred,axis = 1).eval(session=sess))
 
 
 
